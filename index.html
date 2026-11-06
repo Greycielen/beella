@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beella — Imagem Consultoria e Branding</title>
+<meta name="description" content="Consultoria de imagem (colorimetria, Kibbe, estilo) e branding pessoal/empresarial, no Brasil e em Portugal.">
+<link rel="stylesheet" href="styles.css">
+<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+<header class="site">
+  <div class="container site-nav">
+    <a class="brand-mark" href="#top">
+      <img src="assets/logo/mark-abelha.svg" alt="Beella">
+      <span>beella</span>
+    </a>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#precos">Investimento</a>
+      <a href="#lista-espera">Lista de espera</a>
+    </nav>
+    <a class="btn btn-primary" href="#lista-espera">Entrar na lista</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div>
+      <p class="eyebrow"><span class="hex"></span>Imagem · Estilo · Marca</p>
+      <h1>A imagem <em>importa.</em></h1>
+      <p class="lede">Consultoria de imagem e branding para quem quer que a própria aparência e a própria marca comuniquem exatamente quem você é — atendimento no Brasil e em Portugal.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#lista-espera">Entrar na lista de espera</a>
+        <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="hexfield">
+        <div class="h" style="width:46px;height:46px;top:14%;right:16%;"></div>
+        <div class="h" style="width:26px;height:26px;top:36%;right:8%;"></div>
+        <div class="h" style="width:18px;height:18px;top:50%;right:28%;"></div>
+      </div>
+      <img class="sig" src="assets/logo/mark-abelha.svg" alt="">
+      <blockquote>Vamos começar<br>pela escuta.</blockquote>
+    </div>
+  </section>
+
+  <!-- PARA QUEM É -->
+  <section class="section container" id="servicos">
+    <div class="section-head">
+      <p class="eyebrow"><span class="hex"></span>Para quem é</p>
+      <h2>Três formas de <em>revelar</em> o que já existe em você.</h2>
+    </div>
+    <div class="segments">
+      <article class="seg-card">
+        <svg data-lucide="palette"></svg>
+        <h3>Consultoria de Imagem Pessoal</h3>
+        <p>Para mulheres e homens que querem alinhar a imagem à própria essência — descobrindo estilo, colorimetria e as linhas do corpo (método Kibbe) para transmitir mais segurança e autenticidade.</p>
+        <span class="seg-tag">Imagem</span>
+      </article>
+      <article class="seg-card">
+        <svg data-lucide="sparkles"></svg>
+        <h3>Branding de Negócios</h3>
+        <p>Para marcas, empresas e empreendedores que precisam de clareza estratégica, posicionamento forte e uma identidade visual e verbal que revela o que torna o negócio único.</p>
+        <span class="seg-tag">Branding</span>
+      </article>
+      <article class="seg-card">
+        <svg data-lucide="heart-handshake"></svg>
+        <h3>Experiência 360º</h3>
+        <p>Para profissionais e empreendedores que são a cara do próprio negócio — unindo a imagem pessoal estratégica à identidade da marca.</p>
+        <span class="seg-tag">Imagem + Marca</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- PREÇOS -->
+  <section class="section section-soft" id="precos">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow"><span class="hex"></span>Investimento</p>
+        <h2>Serviços avulsos <em>e pacotes.</em></h2>
+      </div>
+
+      <div class="currency-toggle" role="group" aria-label="Moeda">
+        <button type="button" class="active" data-currency="brl">Brasil · R$</button>
+        <button type="button" data-currency="eur">Portugal · €</button>
+      </div>
+
+      <div class="price-group">
+        <p class="price-group-title">Serviços avulsos — Imagem</p>
+        <div class="price-row">
+          <span class="name">Teste de Coloração Pessoal</span>
+          <span class="value" data-brl="R$ 450" data-eur="€ 90">R$ 450</span>
+          <span class="desc">Análise completa do subtom de pele e cartela física/digital (presencial ou online guiado).</span>
+        </div>
+        <div class="price-row">
+          <span class="name">Método Kibbe (Análise de Linhas)</span>
+          <span class="value" data-brl="R$ 600" data-eur="€ 120">R$ 600</span>
+          <span class="desc">Estudo de proporções, estrutura óssea, yin/yang e diretrizes de vestimenta personalizada.</span>
+        </div>
+        <div class="price-row">
+          <span class="name">Consultoria de Estilo Completa</span>
+          <span class="value" data-brl="R$ 1.200" data-eur="€ 240">R$ 1.200</span>
+          <span class="desc">Diagnóstico de estilo pessoal, teste de colorimetria, Kibbe e dossiê de armário.</span>
+        </div>
+      </div>
+
+      <div class="price-group">
+        <p class="price-group-title">Serviços avulsos — Branding</p>
+        <div class="price-row">
+          <span class="name">Diagnóstico &amp; Posicionamento</span>
+          <span class="value" data-brl="R$ 1.500" data-eur="€ 300">R$ 1.500</span>
+          <span class="desc">Definição de propósito, valores, público-alvo, diferenciais e tom de voz da marca.</span>
+        </div>
+        <div class="price-row">
+          <span class="name">Identidade Visual de Marca</span>
+          <span class="value" data-brl="R$ 2.200" data-eur="€ 450">R$ 2.200</span>
+          <span class="desc">Logotipo principal, sub-marca, paleta de cores estratégica, tipografia e manual básico.</span>
+        </div>
+      </div>
+
+      <div class="price-group">
+        <p class="price-group-title">Pacotes combinados</p>
+        <div class="packages">
+          <div class="package-card">
+            <p class="pkg-eyebrow">Pacote</p>
+            <h3 class="pkg-title">Só Branding</h3>
+            <ul>
+              <li>Diagnóstico &amp; Posicionamento</li>
+              <li>Identidade Visual Completa</li>
+              <li>Diretrizes de Tom de Voz e Comunicação</li>
+            </ul>
+            <div class="pkg-value">
+              <span class="value" data-brl="R$ 3.200" data-eur="€ 650">R$ 3.200</span>
+            </div>
+          </div>
+          <div class="package-card featured">
+            <p class="pkg-eyebrow">Pacote completo</p>
+            <h3 class="pkg-title">Experiência 360º</h3>
+            <ul>
+              <li>Tudo de Branding (posicionamento + identidade visual)</li>
+              <li>Tudo de Imagem (colorimetria + Kibbe + estilo pessoal)</li>
+              <li>Bônus exclusivo: 6 artes para redes sociais (3 carrosséis + 3 estáticos)</li>
+            </ul>
+            <div class="pkg-value">
+              <span class="value" data-brl="R$ 4.800" data-eur="€ 960">R$ 4.800</span>
+              <span class="note" data-eur-only>valor em euro a confirmar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LISTA DE ESPERA -->
+  <section class="section container" id="lista-espera">
+    <div class="waitlist-wrap">
+      <div>
+        <p class="eyebrow"><span class="hex"></span>Lista de espera</p>
+        <h2>As vagas são <em>limitadas</em> por mês.</h2>
+        <p class="lede" style="margin-top:18px;">Deixe seu contato para ser avisada(o) na próxima abertura de agenda — e receber condições especiais de quem entrou antes do lançamento.</p>
+      </div>
+
+      <form class="waitlist" id="waitlist-form" action="https://formspree.io/f/SEU_ID_AQUI" method="POST">
+        <div class="field">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="pais">País</label>
+          <select id="pais" name="pais" required>
+            <option value="">Selecione</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Outro">Outro</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="servico">Qual serviço te interessa?</label>
+          <select id="servico" name="servico" required>
+            <option value="">Selecione</option>
+            <option value="Imagem Pessoal">Consultoria de Imagem Pessoal</option>
+            <option value="Branding">Branding de Negócios</option>
+            <option value="360">Experiência 360º</option>
+            <option value="Ainda não sei">Ainda não sei</option>
+          </select>
+        </div>
+        <button class="btn btn-primary" type="submit">Entrar na lista</button>
+        <p class="form-status" id="form-status"></p>
+        <p class="form-note">Sem spam. Só avisamos quando houver vaga.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <a class="brand-mark" href="#top">
+      <img src="assets/logo/mark-abelha.svg" alt="Beella" style="width:24px;">
+      <span>beella</span>
+    </a>
+    <p>© 2026 Beella Imagem Consultoria e Branding</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
