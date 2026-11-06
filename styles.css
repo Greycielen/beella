@@ -129,6 +129,26 @@ header.site{
   text-transform:uppercase; color:var(--mel-700); background:var(--mel-100); padding:5px 11px; border-radius:999px;
 }
 
+/* ---------- portfolio ---------- */
+.portfolio-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
+@media (max-width:900px){ .portfolio-grid{ grid-template-columns:1fr 1fr; } }
+@media (max-width:560px){ .portfolio-grid{ grid-template-columns:1fr; } }
+.work{ margin:0; display:flex; flex-direction:column; gap:14px; }
+.work-media{
+  aspect-ratio:4/5; border-radius:20px; overflow:hidden; position:relative;
+  background:linear-gradient(165deg, var(--c1,var(--bordo-700)), var(--c2,var(--bordo-900)));
+  display:flex; align-items:center; justify-content:center;
+}
+.work-media img{ width:100%; height:100%; object-fit:cover; }
+.work-placeholder{
+  font-family:var(--font-text); font-size:11px; font-weight:500; letter-spacing:.18em;
+  text-transform:uppercase; color:rgba(251,247,243,.55);
+}
+.work figcaption{ display:flex; flex-direction:column; gap:3px; padding:0 2px; }
+.work-name{ font-family:var(--font-display); font-size:19px; color:var(--text-strong); }
+.work-tag{ font-size:12px; font-weight:500; letter-spacing:.06em; text-transform:uppercase; color:var(--mel-700); }
+.portfolio-note{ margin-top:28px; font-size:13px; color:var(--polen-500); max-width:620px; }
+
 /* ---------- pricing ---------- */
 .section-soft{ background:var(--rose-100); }
 .currency-toggle{ display:inline-flex; background:var(--polen-0); border:1px solid var(--border-subtle); border-radius:999px; padding:4px; margin-bottom:40px; }

@@ -10,6 +10,25 @@ Todo arquivo de imagem fica em `assets/`. Pra trocar uma imagem:
 3. Pra adicionar uma imagem nova: na pasta `assets/`, use **Add file → Upload files**, e depois referencie ela no `index.html` como `assets/nome-do-arquivo.jpg`.
 4. Qualquer mudança cria um commit — o site atualiza sozinho em ~1 minuto.
 
+## Adicionar as marcas ao portfólio
+
+A seção "Portfólio" começa com 3 cartões de exemplo (fundos coloridos escrito "Exemplo"). Para colocar uma marca real:
+1. Suba a imagem para a pasta `assets/portfolio/` (ex: `marca-01.jpg`). O ideal é uma imagem no formato retrato (vertical, proporção 4:5).
+2. No `index.html`, procure o cartão que quer preencher. Dentro dele tem uma linha comentada mostrando o exemplo. Troque o bloco:
+   ```html
+   <div class="work-media" style="...">
+     <span class="work-placeholder">Exemplo</span>
+   </div>
+   ```
+   por:
+   ```html
+   <div class="work-media">
+     <img src="assets/portfolio/marca-01.jpg" alt="Nome da marca">
+   </div>
+   ```
+3. Atualize o `<span class="work-name">` com o nome da marca e o `<span class="work-tag">` com o tipo de trabalho.
+4. Para adicionar mais de 3 marcas, copie um bloco `<figure class="work">...</figure>` inteiro e cole em seguida.
+
 ## Conectar o formulário de lista de espera (Formspree)
 
 O formulário em `index.html` (seção "Lista de espera") ainda aponta pra um endereço de exemplo. Pra ativar:
