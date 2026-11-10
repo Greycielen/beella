@@ -32,10 +32,10 @@ A seção "Portfólio" começa com 3 cartões de exemplo (fundos coloridos escri
 ## Conectar o formulário de lista de espera (Formspree)
 
 O formulário em `index.html` (seção "Lista de espera") ainda aponta pra um endereço de exemplo. Pra ativar:
-1. Crie uma conta grátis em [formspree.io](https://formspree.io) usando **beellaimagem@gmail.com**.
+1. Crie uma conta grátis em [formspree.io](https://formspree.io) usando o e-mail da marca.
 2. Crie um novo formulário (New Form) — ele gera um endereço tipo `https://formspree.io/f/abcdwxyz`.
 3. No `index.html`, procure por `SEU_ID_AQUI` (dentro da tag `<form ... action="...">`) e troque pelo endereço gerado.
-4. Pronto — cada envio chega por e-mail em beellaimagem@gmail.com, e também fica organizado no painel do Formspree.
+4. Pronto — cada envio chega no e-mail cadastrado na conta do Formspree, e também fica organizado no painel do Formspree.
 
 ## Publicar no GitHub Pages
 
